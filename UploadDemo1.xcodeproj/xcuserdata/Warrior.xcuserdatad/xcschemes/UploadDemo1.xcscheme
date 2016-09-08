@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "021CA21E1D80F2B100E92AD0"
+               BuildableName = "UploadDemo1.app"
+               BlueprintName = "UploadDemo1"
+               ReferencedContainer = "container:UploadDemo1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "021CA2371D80F2B100E92AD0"
+               BuildableName = "UploadDemo1Tests.xctest"
+               BlueprintName = "UploadDemo1Tests"
+               ReferencedContainer = "container:UploadDemo1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "021CA2421D80F2B100E92AD0"
+               BuildableName = "UploadDemo1UITests.xctest"
+               BlueprintName = "UploadDemo1UITests"
+               ReferencedContainer = "container:UploadDemo1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "021CA21E1D80F2B100E92AD0"
+            BuildableName = "UploadDemo1.app"
+            BlueprintName = "UploadDemo1"
+            ReferencedContainer = "container:UploadDemo1.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "021CA21E1D80F2B100E92AD0"
+            BuildableName = "UploadDemo1.app"
+            BlueprintName = "UploadDemo1"
+            ReferencedContainer = "container:UploadDemo1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "021CA21E1D80F2B100E92AD0"
+            BuildableName = "UploadDemo1.app"
+            BlueprintName = "UploadDemo1"
+            ReferencedContainer = "container:UploadDemo1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
